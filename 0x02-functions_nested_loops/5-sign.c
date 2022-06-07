@@ -21,7 +21,11 @@ int print_sign(int n)
 		value = 0;
 		_putchar('0');
 	}
+<<<<<<< HEAD
 	else 
+=======
+	else
+>>>>>>> 10e2089606293e2388771990be08bc8a2f456393
 	{
 		value = -1;
 		_putchar('-');
