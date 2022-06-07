@@ -16,6 +16,11 @@ void print_alphabet_x10(void)
 	{
 		for (i = 'a'; i <= 'z'; i++)
 			_putchar(i);
+<<<<<<< HEAD
 		_putchar('\n'); 
  	}
+=======
+		_putchar('\n');
+	}
+>>>>>>> 5760d3812a6be0a788fcc711e7eebb8a2ae549c7
 }
