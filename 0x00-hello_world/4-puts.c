@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <stdlib.h>
-
 /**
 * main - print the string in the put function
 *
@@ -10,6 +9,6 @@
 */
 int main(void)          
 {
-	puts("\"Programming is like building a multilingual puzzle\n");
-	return (0);
+    puts("\"Programming is like building a multilingual puzzle\n");
+    return (0);
 }
