@@ -9,24 +9,19 @@
  */
 void puts_half(char *str)
 {
-char rightHalf[100], leftHalf[100];
-int length, mid, i, k;
+int len = 0, i, n;
 
-length = strlen(str);
+while (str[len] != '\0')
+len++;
 
-mid = length/2;
-for(i = 0; i < mid; i++) {
-leftHalf[i]= str[i];
- }
- leftHalf[i] = '\0';
-for(i = mid, k = 0; i <= length; i++, k++) {
-rightHalf[k]= str[i];
-}
-if (i % 2 == 0)
-for ((i = (length - 1) / 2); str[i] != 0; i++)
+if (len % 2 == 0)
+n = len / 2;
+
+else
+n = (len + 1) / 2;
+
+for (i = n; i < len; i++)
 _putchar(str[i]);
 
 _putchar('\n');
-
-
 }
