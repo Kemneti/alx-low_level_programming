@@ -7,7 +7,7 @@
  */
 int _strlen(char *s)
 {
-	char s[100],i;
+	int i;
 	
 	for (i = 0; s[i]!='\0'; ++i);
         
