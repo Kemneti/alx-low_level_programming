@@ -9,7 +9,7 @@
  */
 void puts_half(char *str)
 {
-char rightHalf[100];
+char rightHalf[100], leftHalf[100];
 int length, mid, i, k;
 
 length = strlen(str);
