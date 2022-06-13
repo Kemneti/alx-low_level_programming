@@ -10,7 +10,7 @@
 void puts_half(char *str)
 {
 char rightHalf[100];
-int length, mid, i, k,n;
+int length, mid, i, k, n;
 
 length = strlen(str);
 
