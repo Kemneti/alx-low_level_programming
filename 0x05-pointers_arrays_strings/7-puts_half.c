@@ -15,8 +15,10 @@ int length, mid, i, k;
 length = strlen(str);
 
 mid = length/2;
-
-leftHalf[i] = '\0';
+for(i = 0; i < mid; i++) {
+leftHalf[i]= str[i];
+ }
+ leftHalf[i] = '\0';
 for(i = mid, k = 0; i <= length; i++, k++) {
 rightHalf[k]= str[i];
 }
