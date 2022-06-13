@@ -1,4 +1,4 @@
-#include <stdio.h>  
+#include <stdio.h>
 #include <string.h>
 #include "main.h"
 
@@ -12,7 +12,7 @@ void rev_string(char *s)
 int i, len, temp;
 len = strlen(s);
 
-for (i = 0; i < len/2; i++)
+for (i = 0; i < len / 2; i++)
 {
 temp = s[i];
 s[i] = s[len - i - 1];
