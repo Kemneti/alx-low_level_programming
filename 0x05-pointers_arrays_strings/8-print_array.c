@@ -15,6 +15,9 @@ void print_array(int *a, int n)
 	
 	for (i = 0; i < n; i++)
 	{
-		printf(" Element at Array[%d] = %d \n", i, a[i]);
+		printf(" %d \n", a[i]);
+		if (i < n - 1)
+			printf(", ");
 	}	
+	printf("\n");
 }
