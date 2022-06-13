@@ -7,11 +7,8 @@
  */
 int _strlen(char *s)
 {
-	char s[];
-	int i, length = 0;
+	char str[100],i;
 	
-	for (i = 0; string[i] != '\0'; i++)
-        {
-        	length++;
-        }
-result(length)
+	for (i = 0; str[i]!='\0'; ++i);
+        
+result(i);
