@@ -6,4 +6,12 @@
  * Return: Nothing
  *
 int _strlen(char *s)
-	char s[] = "Programming is fun"
+{
+	char s[];
+	int i, length = 0;
+	
+	for (i = 0; string[i] != '\0'; i++)
+        {
+        	length++;
+        }
+result(length)
