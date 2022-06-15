@@ -6,14 +6,18 @@
  * @src: pointer source
  * Return: void
 */
+
 char *_strcat(char *dest, char *src)
-int length, j;
-length = 0;
-while (dest[length] != '\0') {
-++length;
+{
+int a = -1, i;
+for (i = 0; dest[i] != '\0'; i++)
+;
+
+do {
+	a++;
+	dest[i] = src[a];
+	i++;
+} while (src[a] != '\0');
+
+return (dest);
 }
-for (j = 0; src[j] != '\0'; ++j, ++length) {
-dest[length] = src[j];
-}
-dest[length] = '\0';
-return dest;
